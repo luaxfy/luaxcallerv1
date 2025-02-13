@@ -29,7 +29,6 @@ def print_typing_effect(text, delay=0.05):
         time.sleep(delay)
     print()
 
-# OTP gönderme fonksiyonu
 def send_otp(phone_number):
     data = {
         "countryCode": "eg",
